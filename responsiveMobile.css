@@ -1,0 +1,198 @@
+/* Responsiveness for a Mobile Screen */
+@media screen and (max-width: 600px) {
+
+    p, strong {
+        font-size: 18px;
+        line-height: 120%;
+    }
+
+    .bio p {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 1%;
+    }
+
+    .logo-header {
+        width: 70%;
+    }
+
+    .logo-header a {
+        font-size: 20px;
+    }
+    
+    .menus {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 2%;
+    }
+
+    .menu-icon {
+        width: 20%;
+    }
+
+    .hamburger-icon {
+        display: block;
+    }
+
+    .hero-section
+{
+    flex-direction: column;
+    text-align: center;
+}
+
+.bio {
+    width: 95%;
+}
+
+strong {
+    font-size: 24px;
+}
+
+.bio h1 {
+    font-size: 32px;
+    margin: 1% 0;
+}
+
+.bio a button {
+    width: 95%;
+}
+
+.web-img {
+    width: 50%;
+}
+
+.feature-section {
+    flex-direction: column;
+}
+
+.feature {
+    width: 95%;
+    padding: 4% 0%;
+}
+
+/* .feature-img {
+    width: 95%;
+} */
+
+footer {
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 35%;
+}
+
+.footer-logo a {
+    font-size: 12px;
+}
+
+.icons {
+    width: 20%;
+    justify-content: space-between;
+    /* gap: 0; */
+}
+
+.social-media-handle {
+    width: 45%;
+}
+
+.social-media-handle p {
+    text-align: end;
+    font-size: 10px;
+}
+
+/* Hamburger Responsive Clicks */
+.hamburger-menu.visible {
+        display: flex;
+}
+
+    .close-icon {
+        display: block;
+    }
+
+    .close-icon.hide {
+        display: none;
+    }
+
+    .hamburger-icon.hide {
+        display: none;
+    }
+
+    .position.hide {
+        position: fixed;
+        left: 0;
+        right: 0;
+        margin: 0 3%;
+    }
+}
+
+/* Responsiveness for Smaller Desktop Screen & Tablet Screen */
+@media screen and (max-width: 1200px) and (min-width: 601px) {
+    .logo-header {
+        width: 30%;
+    }
+    
+    nav {
+        width: 45%;
+    }
+
+    .bottom-section {
+        justify-content: space-between;
+        align-items: center;
+        padding: 3% 2%;
+    }
+
+    p, ul {
+        text-align: start;
+    }
+
+    .projects {
+        position: unset;
+        width: 55%;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .project-image {
+        width: 40%;
+    }
+
+    footer {
+        justify-content: center;
+    }
+
+    .icons {
+        width: 30%;
+    }
+
+    .social-media-handle {
+        width: 45%;
+    }
+
+    .social-media-handle p {
+       text-align: center;
+       font-size: 18px;
+    }
+}
